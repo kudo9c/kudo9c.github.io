@@ -99,7 +99,7 @@ html {
     background-color: #f44336;
 }
 
-#header .ti-search {
+#header .search {
     color: #fff;
     font-size: 15px;
 }
@@ -324,7 +324,7 @@ html {
     line-height: 1.5;
 }
 
-.contact-info i[class*="ti-"] {
+.contact-info i {
     display: inline-block;
     width: 30px;
 }
