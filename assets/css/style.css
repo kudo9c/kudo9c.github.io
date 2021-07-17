@@ -386,9 +386,13 @@ html {
     left: 0;
     bottom: 0;
     background: rgba(0,0,0, 0.4);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+}
+
+.modal.open {
+    display: flex;
 }
 
 .modal-container {
@@ -462,5 +466,5 @@ html {
 .modal-footer {
     padding: 16px;
     text-align: right;
-    
+    max-width: calc(100% - 32px);
 }
