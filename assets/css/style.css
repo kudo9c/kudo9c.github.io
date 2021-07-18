@@ -400,6 +400,7 @@ html {
     width: 900px;
     min-height: 200px;
     position: relative;
+    animation: modalFadeIn ease 0.3s;
 }
 
 .modal-header {
@@ -467,4 +468,13 @@ html {
     padding: 16px;
     text-align: right;
     max-width: calc(100% - 32px);
+}
+
+@keyframes modalFadeIn {
+    from {
+        transform: translateY(-100px)
+    }
+    to {
+        transform: translateY(0)
+    }
 }
